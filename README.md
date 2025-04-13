@@ -44,3 +44,10 @@
 - Greedy
 - Dynamic Programming
 - Hashing
+
+
+
+## Type of algorithms we covered
+
+- Arrays = [1, 54, 200, 217, 268, 448, 1266, 1365]
+- Two pointers = [121]
