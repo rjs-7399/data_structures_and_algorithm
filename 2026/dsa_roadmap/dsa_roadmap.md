@@ -1,0 +1,54 @@
+## 🚀 DSA Preparation Roadmap 2026
+
+| Status | Which Month | Topic (Category)                                             | Important Concepts                                                                                                                                                                                                                                                                                                                                                                                        | Playlist Link                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Other Notes                                                                                                                                                                                                     |
+|--------| ----------- |--------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ⬜      | **Month 1** | **Arrays & Linked List** (Linear Data Structures)            | **Arrays:** <br> - Sliding Window <br> - Kadane's Algorithm <br> - Prefix Sum <br><br> **Linked List:** <br> - Reversing <br> - Cycle Detection <br> - Slow & Fast Pointer                                                                                                                                                                                                        | Arrays: <br> [Pep Coding: Functions and Arrays - Level 1](https://youtube.com/playlist?list=PL-Jc9J83PIiHOV7lm2uSw4ZiVsIRsGS6r&si=fIwk_wGnQxttmiv0) <br><br> Linked List: <br> [Pep Coding: Linked List - Level 1](https://youtube.com/playlist?list=PL-Jc9J83PIiF5VZmktfqW6WVU1pxBF6l_&si=bkne91wgnq6vkmL7) <br><br> Algorithms <br> [Love Babbar: Sorting & Searching](https://youtube.com/playlist?list=PLDzeHZWIZsTp4pb_WBRahP1tnipLuX9qM&si=i-f_4GlmHLbGuZWf) | Solve **15–20 easy to medium Leetcode problems** on each topic. After this month, aim to comfortably solve Easy–Medium problems on Arrays & Linked Lists.                                                       |
+| ⬜      | **Month 2** | **Stack, Queue & HashMaps** (Linear Data Structures)         | **Stack:** <br> - Next Greater Element <br> - Implementation using Arrays & Linked List <br><br> **Queue:** <br> - Sliding Window Maximum <br> - Implementation using Arrays & Linked List <br><br> **HashMaps:** <br> - Two Sum <br> - Longest Subarray with Sum K                                                                                                               | Stack & Queue: <br> [take U forward: Stack and Queue](https://youtu.be/tqQ5fTamIN4?si=Q7PYU0SOZOeqeYr2) <br><br> Hashing: <br> [take U forward: HASHING](https://youtu.be/KEs5UyBJ39g?si=7SJix_VDsjB_P0ZB)                                                                                                                                                                                                                                                         | Understand real-world usage: Stacks (Compilers), Queues (Task Scheduling), HashMaps (Caching). Solve **15–20 Easy–Medium Leetcode problems**.                                                                   |
+| ⬜      | **Month 3** | **Recursion & Backtracking** (Foundation for Non-Linear DS)  | **Recursion:** <br> - Fibonacci <br> - Factorial <br> - Tower of Hanoi <br><br> **Backtracking:** <br> - N-Queens <br> - Subset Generation <br> - Sudoku Solver                                                                                                                                                                                                                   | Recursion: <br> [Aditya Verma: Recursion](https://youtube.com/playlist?list=PL_z_8CaSLPWeT1ffjiImo0sYTcnLzo-wY&si=zB2u7tNVD2uaxXZS) <br><br> Backtracking: <br> [Aditya Verma: Backtracking](https://youtube.com/playlist?list=PL_z_8CaSLPWdbOTog8Jxk9XOjzUs3egMP&si=raQMGpCmln4gRr0l)                                                                                                                                                                             | Recursion builds base for Trees & Graphs. If constraints are involved → Backtracking. Solve **15–20 Easy–Medium Leetcode problems**.                                                                            |
+| ⬜      | **Month 4** | **Trees & Graphs** (Non-Linear Data Structures)              | **Trees:** <br> - Traversals: Preorder, Inorder, Postorder, LevelOrder <br> - Views: Top View, Bottom View, Left View, Right View <br> - Lowest Common Ancestor <br> - Diameter of a Tree <br><br> **Graphs:** <br> - Traversals: BFS, DFS <br> - Detecting Cycles <br> - Shortest Path Algorithms (Djikstra & Bellmanford)                                                   | Trees: <br> [take U forward: Introduction to trees series](https://youtube.com/playlist?list=PLkjdNRgDmcc0Pom5erUBU4ZayeU9AyRRu&si=X5IkZTyYvpfIEyqR) <br><br> Graphs: <br> [take U forward: Introduction to Graph series](https://youtube.com/playlist?list=PLgUwDviBIf0rGEWe64KWas0Nryn7SCRWw&si=COd_50m9sYUtbTG-)                                                                                                                                                | Focus on construction + traversal. Solve **15–20 Easy–Medium Leetcode problems**. Trees & Graphs are heavily used in Search Engines, Social Networks, Navigation Apps.                                          |
+| ⬜      | **Month 5** | **Dynamic Programming** (Optimization Technique)             | **Approaches:** <br> - Tabulation <br> - Memoization <br><br> **Problems to Master:** <br> - Fibonacci <br> - Coin Change <br> - Climbing Stairs <br> - Knapsack <br> - Partition <br> - Longest Increasing Subsequence <br> - Matrix Chain Multiplication                                                                                                            | Dynamic Programming: <br> [Aditya Verma: Dynamic Programming Playlist](https://youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go&si=JSCmK3hYTM0iLkwu)                                                                                                                                                                                                                                                                                                   | 80% of optimization interview questions lead to DP. Solve **15–20 Easy–Medium Leetcode problems**.                                                                                                              |
+| ⬜      | **Month 6** | **Revision, Practice & Contests** (Application Phase)        | - Full revision of all topics <br> - Timed problem solving <br> - Weekly & Bi-Weekly contests                                                                                                                                                                                                                                                                                                 | Leetcode Contests (Weekly/Bi-Weekly)                                                                                                                                                                                                                                                                                                                                                                                                                               | Appear for contests (1.5 hrs, 4 questions). Practice within time limit. Helps simulate real interview pressure.                                                                                                 |
+
+
+## 📌 Note: Competitive Programming vs Leetcode
+
+- For product-based companies (FAANG level) → Leetcode preparation is sufficient.
+- If you can solve Leetcode contests comfortably and understand DSA deeply → You are interview ready.
+- If targeting HFT firms (Tower Research Capital, DE Shaw) or coding-intensive companies like Code Nation, Zeeta → Competitive Programming is required.
+- Competitive Programming should start only when you can solve Leetcode problems comfortably.
+- Strong fundamentals + variety of problem exposure = Smooth coding rounds.
+
+## 📘 Additional Section: Understanding Data Structures (Foundation Month)
+
+Before starting the 6-month roadmap, dedicate time to understanding:
+
+### Data Structures Overview
+
+#### 🔹 Linear Data Structures
+
+- Materials
+  - [Geeks For Geeks: What is Data Structure ?](https://www.geeksforgeeks.org/dsa/data-structure-meaning/)
+  - [Geeks For Geeks: DSA Tutorial](https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/)
+
+- Elements arranged sequentially.
+- Examples:
+  - Arrays
+  - Linked Lists
+  - Stack
+  - Queue
+  - HashMaps
+
+#### 🔹 Non-Linear Data Structures
+
+- Elements arranged hierarchically or graph-like.
+- Examples:
+  - Trees
+  - Graphs
+
+#### 🔹 Programming Language Knowledge
+
+- Python interview questions by Geeks for Geeks - [link](https://www.geeksforgeeks.org/python/python-interview-questions/)
+
+#### 🔹 Design Patterns
+
+- Design Patterns tutorial by Geeks for Geeks - [link](https://www.geeksforgeeks.org/system-design/software-design-patterns/)
