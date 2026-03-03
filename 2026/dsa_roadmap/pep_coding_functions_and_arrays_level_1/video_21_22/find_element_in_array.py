@@ -7,8 +7,8 @@ def find_element_in_array(arr, k):
     return index
 
 def main():
-    arr = [6, 15, 30, 40, 4, 11, 9, 40]
-    k = 40
+    arr = [5, 1, 2, 8, 5, 3]
+    k = 8
     print("Given array is")
     print(arr)
     index = find_element_in_array(arr, k)
