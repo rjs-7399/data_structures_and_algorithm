@@ -17,6 +17,8 @@ def main():
     arr = [6, 15, 30, 40, 4, 11, 9]
     HIGH = -9999
     LOW = 9999
+    print("Given Array is:")
+    print(arr)
     result = get_span_of_array(arr, HIGH, LOW)
     print("Print the span of given array")
     print(result)
@@ -25,7 +27,9 @@ if __name__ == "__main__":
     main()
 
 """CLI Output
-(basevenv) rutvikshah@Rutviks-MacBook-Air video_19_20 % python3 span_of_array.py
+(basevenv) rutvikshah@Rutviks-MacBook-Air video_19_20 % python3 span_of_array.py 
+Given Array is:
+[6, 15, 30, 40, 4, 11, 9]
 HIGH at index 0: 6
 HIGH at index 1: 15
 HIGH at index 2: 30
