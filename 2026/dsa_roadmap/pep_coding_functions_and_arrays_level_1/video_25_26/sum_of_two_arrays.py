@@ -1,4 +1,3 @@
-
 def sum_of_two_arrays(arr1, arr2):
     carry = 0
     arr3 = []
