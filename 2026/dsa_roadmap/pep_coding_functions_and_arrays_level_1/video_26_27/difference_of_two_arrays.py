@@ -13,7 +13,6 @@ def difference_of_two_arrays(arr1, arr2):
         else:
             arr3.append(arr1[i] - arr2[i])
             print(f"Value at current index {i} is {arr1[i] - arr2[i]}")
-        print()
     final_arr = arr3[::-1]
 
     while len(final_arr) > 1 and final_arr[0] == 0:
@@ -22,10 +21,34 @@ def difference_of_two_arrays(arr1, arr2):
 
 
 def main():
-    arr1 = [9,9,9]
-    arr2 = [9,9,9]
-    ans = difference_of_two_arrays(arr1, arr2)
-    print(ans)
+    print("Two input arrays:")
+    arr1 = [8,0,5,4,3,2]
+    arr2 = [4,6,8,7,5,9]
+    print(f"Array 1: {arr1}")
+    print(f"Array 2: {arr2}")
+    print()
+    print("Debugging the Process:")
+    result = difference_of_two_arrays(arr1, arr2)
+    print("\nDifference of two arrays:")
+    print(result)
 
 if __name__ == '__main__':
     main()
+
+"""
+(basevenv) rutvikshah@Rutviks-MacBook-Air video_26_27 % python3 difference_of_two_arrays.py
+Two input arrays:
+Array 1: [8, 0, 5, 4, 3, 2]
+Array 2: [4, 6, 8, 7, 5, 9]
+
+Debugging the Process:
+Value at current index 5 is 3
+Value at current index 4 is 7
+Value at current index 3 is 6
+Value at current index 2 is 6
+Value at current index 1 is 3
+Value at current index 0 is 3
+
+Difference of two arrays:
+[3, 3, 6, 6, 7, 3]
+"""
