@@ -23,6 +23,7 @@ def main():
     print(f"Array 1: {arr1}")
     print(f"Array 2: {arr2}")
     print()
+    print("Debugging the Process:")
     result = sum_of_two_arrays(arr1, arr2)
     print("\nSum of two arrays:")
     print(result)
@@ -35,6 +36,7 @@ Two input arrays:
 Array 1: [9, 3, 4, 6, 8]
 Array 2: [1, 9, 8, 8]
 
+Debugging the Process:
 Printing values at each index, current sum: 6, Current carry = 1
 Printing values at each index, current sum: 5, Current carry = 1
 Printing values at each index, current sum: 4, Current carry = 1
