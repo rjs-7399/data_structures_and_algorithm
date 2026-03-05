@@ -32,6 +32,7 @@ if __name__ == '__main__':
     main()
 
 """CLI Output
+(basevenv) rutvikshah@Rutviks-MacBook-Air video_25_26 % python3 sum_of_two_arrays.py
 Two input arrays:
 Array 1: [9, 3, 4, 6, 8]
 Array 2: [1, 9, 8, 8]
