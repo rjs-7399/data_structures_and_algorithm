@@ -36,7 +36,7 @@ if __name__ == '__main__':
     main()
 
 """
-(basevenv) rutvikshah@Rutviks-MacBook-Air video_26_27 % python3 difference_of_two_arrays.py
+(basevenv) rutvikshah@Rutviks-MacBook-Air video_27_28 % python3 difference_of_two_arrays.py
 Two input arrays:
 Array 1: [8, 0, 5, 4, 3, 2]
 Array 2: [4, 6, 8, 7, 5, 9]
